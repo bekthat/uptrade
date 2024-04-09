@@ -1,0 +1,16 @@
+{% load menu_tags %} <!-- Загрузка кастомных тэгов -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+    <!-- Отрисовка меню с именем 'main_menu' -->
+    {% draw_menu 'main_menu' %}
+
+    <!-- Основное содержимое страницы -->
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
